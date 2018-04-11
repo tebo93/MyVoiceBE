@@ -1,0 +1,19 @@
+{
+    "name": "MyVoiceBackEnd",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "tebo",
+    "contributors": [],
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "moment": "^2.18.1",
+        "mongodb": "^2.0.55",
+        "router-express": "^1.5.2"
+    }
+}
