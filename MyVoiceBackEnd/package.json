@@ -12,8 +12,8 @@
     "contributors": [],
     "dependencies": {
         "body-parser": "^1.18.2",
+        "express": "^4.16.3",
         "moment": "^2.18.1",
-        "mongodb": "^2.0.55",
-        "router-express": "^1.5.2"
+        "mongodb": "^2.0.55"
     }
 }
