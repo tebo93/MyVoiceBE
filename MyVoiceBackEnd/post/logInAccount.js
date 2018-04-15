@@ -31,7 +31,7 @@ router.post('/login', function (req, res) {
             users.find({
                 $and: [
                     { email: email },
-                    { usermane: username }
+                    { password: password }
                 ]
             }).toArray(function (err2, e2) {
                 if (err2) {

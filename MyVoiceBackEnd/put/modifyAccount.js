@@ -19,7 +19,7 @@ router.put('/accountinfo', function (req, res) {
             res.write(JSON.stringify(k));
             res.end();
         } else {
-            var doc = users.collection('users');
+            var users = db.collection('users');
             users.updateOne({
                 email: email,
                 password: password}, {

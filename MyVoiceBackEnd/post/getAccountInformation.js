@@ -42,7 +42,7 @@ router.post('/accountinfo', function (req, res) {
                         res.write(JSON.stringify(k));
                         res.end();
                     } else {
-                        var k = { error: e };
+                        var k = { error: "Wrong email or password"};
                         console.log(JSON.stringify(k));
                         res.write(JSON.stringify(k));
                         res.end();

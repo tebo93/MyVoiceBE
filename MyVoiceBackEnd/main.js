@@ -8,5 +8,6 @@ var server = app.listen(8080, function () {
 app.use('/', require('../MyVoiceBackEnd/post/createAccount').router);
 app.use('/', require('../MyVoiceBackEnd/post/logInAccount').router);
 app.use('/', require('../MyVoiceBackEnd/post/getAccountInformation').router);
+app.use('/', require('../MyVoiceBackEnd/put/modifyAccount').router);
 app.use('/', require('../MyVoiceBackEnd/post/geallusers').router);
 app.use('/', require('../MyVoiceBackEnd/delete/deleteAccount').router);
