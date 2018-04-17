@@ -11,3 +11,6 @@ app.use('/', require('../MyVoiceBackEnd/post/getAccountInformation').router);
 app.use('/', require('../MyVoiceBackEnd/put/modifyAccount').router);
 app.use('/', require('../MyVoiceBackEnd/post/geallusers').router);
 app.use('/', require('../MyVoiceBackEnd/delete/deleteAccount').router);
+app.use('/', require('../MyVoiceBackEnd/put/addMotToLangue').router);
+app.use('/', require('../MyVoiceBackEnd/post/createLangue').router);
+app.use('/', require('../MyVoiceBackEnd/post/getAccountInfoLangues').router);
